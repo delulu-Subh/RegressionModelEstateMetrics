@@ -71,6 +71,8 @@ lassoReg = Lasso(alpha=10)
 lassoReg.fit(x_train, y_train)
 y_pred_lasso = lassoReg.predict(x_test)
 
+<img width="547" height="446" alt="EstateMetrics" src="https://github.com/user-attachments/assets/3d5a9ede-f267-4707-b9b5-ae53b853a1a8" />
+
 Performance Metrics
 Metric	Ridge Regression
 MAE	82,553
@@ -108,8 +110,10 @@ Use cross-validation for more robust hyperparameter tuning
 
 Deploy the model as a web application for real-time house price predictions
 
-HousingPricePrediction/
+RegressionModelEstateMetrics/
 │
 ├─ housing_price_dataset.csv       # Raw dataset
-├─ EstateIQ.ipynb # Jupyter notebook with code
-|_ README.md                       # Project documentation
+├─ EstateIQ.ipynb                  # Jupyter notebook with regression code
+├─ README.md                       # Project documentation
+├─ requirements.txt                # Python dependencies
+└─ plot.png                        # Actual vs Predicted visualization

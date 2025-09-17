@@ -103,17 +103,6 @@ Strong correlation between features and target allows for reliable predictions.
 🔮 Future Enhancements
 
 Explore ElasticNet Regression (combining L1 + L2)
-
-Implement feature selection to reduce dimensionality
-
-Use cross-validation for more robust hyperparameter tuning
-
-Deploy the model as a web application for real-time house price predictions
-
-RegressionModelEstateMetrics/
-│
-├─ housing_price_dataset.csv       # Raw dataset
-├─ EstateIQ.ipynb                  # Jupyter notebook with regression code
-├─ README.md                       # Project documentation
-├─ requirements.txt                # Python dependencies
-└─ plot.png                        # Actual vs Predicted visualization
+Implement feature selection to reduce dimensionality.
+Use cross-validation for more robust hyperparameter tuning.
+Deploy the model as a web application for real-time house price predictions.

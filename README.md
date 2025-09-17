@@ -108,9 +108,8 @@ Use cross-validation for more robust hyperparameter tuning
 
 Deploy the model as a web application for real-time house price predictions
 
-📂 Repository Structure
 HousingPricePrediction/
 │
 ├─ housing_price_dataset.csv       # Raw dataset
 ├─ EstateIQ.ipynb # Jupyter notebook with code
-├─ README.md                       # Project documentation
+|_ README.md                       # Project documentation

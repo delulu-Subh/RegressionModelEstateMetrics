@@ -49,8 +49,6 @@ Area Population	Population of the area
 Address	House address (encoded using One-Hot)
 Price	House price (target variable)
 ⚡ Installation
-# Clone the repository
-git clone https://github.com/yourusername/HousingPricePrediction.git
 
 # Navigate to the project directory
 cd HousingPricePrediction
